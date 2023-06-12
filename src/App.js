@@ -1,5 +1,7 @@
+import Register from "./components/pages/Register"
+
 function App(){
-    return <div>Project</div>
+    return <Register />
 }
 
 export default App
