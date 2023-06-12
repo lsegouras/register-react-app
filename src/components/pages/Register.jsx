@@ -10,7 +10,7 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
 
-  const baseUrl = "https://localhost:3001";
+  const baseUrl = "https://register-api-gold.vercel.app";
 
   const getUsers = async () => {
     const { data } = await axios.get(`${baseUrl}/users`);
